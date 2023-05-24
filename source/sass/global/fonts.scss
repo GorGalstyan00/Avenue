@@ -1,0 +1,27 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Eastwood";
+
+  font-display: swap;
+  src: url("../fonts/Eastwood.ttf") format(ttf);
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Jost";
+
+  font-display: swap;
+  src: url("../fonts/jost-v14-latin-regular.ttf") format(ttf);
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Jost";
+
+  font-display: swap;
+  src: url("../fonts/jost-v14-latin-regular.woff") format(woff),
+    url("../fonts/jost-v14-latin-regular.woff2") format(woff2);
+}

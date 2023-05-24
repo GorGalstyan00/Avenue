@@ -1,0 +1,33 @@
+.button {
+  display: block;
+  width: 170px;
+  padding: 16px 18px 16px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: $font-eastwood;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  background-color: #4a3d68;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: #669ec0;
+    outline: none;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+
+    background-color: #5496bd;
+  }
+
+  &:disabled,
+  &--disabled {
+    background-color: #e5e5e5;
+  }
+}

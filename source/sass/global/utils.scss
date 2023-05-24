@@ -1,0 +1,22 @@
+.list-reset {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 22px;
+  height: 4px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #000000;
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
