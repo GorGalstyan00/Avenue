@@ -1,0 +1,33 @@
+.advantages__wrapper {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.advantages__container {
+  padding-right: 120px;
+
+  text-align: center;
+}
+
+.advantages__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 64px;
+  font-family: $font-eastwood;
+  color: #ffffff;
+}
+
+.advantages__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  font-family: $font-jost;
+  color: #e9e9ef;
+}
+
+.advantages__img img {
+  border-radius: 15px;
+}
