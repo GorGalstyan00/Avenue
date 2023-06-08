@@ -1,0 +1,43 @@
+.social {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.social__item {
+  padding: 40px;
+}
+
+.social__link {
+  justify-content: space-between;
+
+  &:hover,
+  &:focus {
+    background-color: #669ec0;
+    outline: none;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+
+    background-color: #5496bd;
+  }
+}
+
+.social__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: $font-eastwood;
+  color: #ffffff;
+}
+
+.social__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  font-family: $font-jost;
+  color: #9093b1;
+}
